@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple JS Runner</title>
+    <link rel="stylesheet" href="style.css">
+    <script type="module" src="main.js" defer></script>
+</head>
+<body>
+    <header class="main-header">
+        <div class="header-content">
+            <img src="../assets/img/javascript.png" alt="JS Logo" class="logo">
+            <div>
+                <h1>JS Runner</h1>
+            </div>
+        </div>
+    </header>
+    <div class="container">
+        <div class="button-row">
+            <button id="run-btn" type="button">Run</button>
+            <button id="clear-btn" type="button">Clear Output</button>
+            <div class="options-menu">
+                <button id="options-btn" title="Options" aria-label="Options" class="options-btn">&#8942;</button>
+                <div id="options-dropdown" class="options-dropdown">
+                    <label><input type="checkbox" id="auto-run-check"> Auto-run on refresh</label>
+                    <label><input type="checkbox" id="auto-clear-check"> Auto-clear output on run</label>
+                    <label><input type="checkbox" id="dark-mode-check"> Dark mode</label>
+                </div>
+            </div>
+        </div>
+        <div class="output-section">
+            <div class="output-header">
+                <span>Output</span>
+            </div>
+            <div id="output" class="output-advanced"></div>
+        </div>
+        
+        <div class="live-feedback">
+            <h2>Live Feedback</h2>
+            <div id="feedback"></div>
+        </div>
+    </div>
+</body>
+</html>
