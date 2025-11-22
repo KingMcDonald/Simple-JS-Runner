@@ -96,7 +96,6 @@ const eloquentSuggestions = [
     { title: 'Debugging', page: 165 },
     { title: 'Functional Programming', page: 509 },
     { title: 'Promises', page: 347 },
-    { title: 'Async/Await', page: 347 },
     { title: 'Web Storage', page: 365 },
     { title: 'JSON', page: 104 },
     { title: 'Error Handling Patterns', page: 405 },
