@@ -1,9 +1,10 @@
-JS Runner
+## JS Runner
 
 An interactive, lightweight tool for executing JavaScript with live output, smart feedback, dark mode, auto-run, and detailed error insights. Perfect for testing snippets, learning JavaScript, or debugging code in real time.
 
+---
 
-🚀 Features
+## 🚀 Features
 
 * **Live JavaScript Execution**
 * **Auto-run Mode** for quick testing
@@ -29,8 +30,8 @@ Simple-JS-Runner/
 │ │── style.css
 │ └── style.css
 │
-│── input.js
-└── README.md
+│── README.md
+└── input.js
 ```
 
 ---
@@ -100,3 +101,9 @@ This project is open-source and free to use.
 ## 🤝 Contributing
 
 Pull requests, issues, and suggestions are welcome!
+
+---
+
+## 💡 Author
+
+Made with ❤️ by King Mcdonald
